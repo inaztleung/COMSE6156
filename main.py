@@ -22,7 +22,7 @@ async def say_hello(name: str):
 
 @app.get("/hello_text/{name}")
 async def say_hello_text(name: str):
-    the_message = f"Awesome cloud developer dff9 says Hello {name}"
+    the_message = f"Awesome cloud developer zl3309 says Hello {name}"
     rsp = Response(content=the_message, media_type="text/plain")
     return rsp
 
